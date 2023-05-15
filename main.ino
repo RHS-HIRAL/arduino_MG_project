@@ -1,6 +1,6 @@
 #include<OneWire.h>
 #include<DallasTemperature.h>
-#define ONE_WIRE_BUS 4 //OneWire is a library to connect many sensors to one pin
+#define ONE_WIRE_BUS 6 //OneWire is a library to connect many sensors to one pin
 OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
 
