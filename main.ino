@@ -11,7 +11,7 @@ const int EPR = 10;
 const int LPL = 8; //LED Pin Left/Right - LPL/LPR
 const int LPR = 7;
 const int DISTANCE_THRESHOLD = 20; //Sensitivity in terms of distance of the ultrasonic sensors
-const float TEMPERATURE_THRESHOLD = 34;
+const float TEMPERATURE_THRESHOLD = 34; //Sensitivity of temperature in terms of degree Celsius
 int LED = 4; float tempC; //LED to check if the temperature is above certain temperature
 
 float duration_usl, duration_usr, distance_cml, distance_cmr; //duration of ultrasonic sensor right/left and distance in cms of right/left
